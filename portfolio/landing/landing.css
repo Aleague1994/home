@@ -1,30 +1,30 @@
-body {
-	font-family: tahoma, Arial, sans-serif;
-	background-color:#000000;
-	color:#c0c0c0;
-	}
+header {
+		display:block;
+		text-align: center;
+}
+
+.headimg {
+	display: block;
+	margin: auto;
+}
+
+.portrait {
+	display: block;
+	float: right;
+}
+
+#headdiv {
+	display: block;
+	margin: auto;
+	clear: both;
+	color:#2e34e6;
 	
-h1 {
-	font-size:32px;
-	color:#006600;
-	background-color:#222222;
-	}
-	
-h2 {
-	font-size:28px;
-	color:#336699;
-	background-color:#222222;
-	}
-h3 {
-	font-size:24px;
-	color:#22ffff;
-	background-color:#222222;
-	}
-h4, h5, h6 {
-	font-size:18px;
-	color:#ff88ff;
-	background-color:#222222;
-	}
+}
+p {
+	display: block;
+	text-align: right;
+	clear:both;
+}
 
 a {
 	text-decoration:none;
