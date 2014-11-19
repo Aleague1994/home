@@ -9,28 +9,58 @@ header {
 }
 
 .portrait {
-	display: block;
-	float: right;
+	margin-top:50px;
+  margin-left:500px;
+  float:center;
 }
+
 
 #headdiv {
-	display: block;
+  border-radius:5px;
+  width:1000px;
+  height:13px;
 	margin: auto;
-	clear: both;
-	color:#2e34e6;
-	
+  background-color:#2e34e6;
 }
-p {
-	display: block;
-	text-align: right;
-	clear:both;
+.link {
+	float:left;
+  border-radius:5px;
+  background:#ff4500;
+  margin:50px 20px;
+  width:150px;
+  height:50px;
+  line-height:20px;
+  text-align:center;
+  color:#000000;
+  text-decoration:none;
+  font-family:Arial Rounded MT Bold;
+  clear:left
 }
 
-a {
+
+.content {
+	margin-left:500px;
+  float:center;
+	text-align: left;
+	clear:right;
+  font-family:Trebuhet MS;
+}
+
+a.link:hover {
+  background-color:#ffa500;
+}
+
+a#pcontact {
 	text-decoration:none;
-	color:#ffffff;
-	}
+	color:#0000ff
+}
 	
-a:hover {
-	color:#00ff00;
+a#pcontact:hover {
+  text-decoration:underline;
 	}
+
+#footer{
+  display:block;
+  clear:both;
+  text-align:center;
+}
