@@ -40,6 +40,12 @@ h1 {
   font-family:Trebuchet MS;
 }
 
+#email {
+list-style-type:none;
+font-size:24px;
+font-family:Trebuchet MS;
+}
+
 #phone {
   list-style-type:none;
   margin-top:20px;
