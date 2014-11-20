@@ -1,36 +1,76 @@
-body {
-	font-family: tahoma, Arial, sans-serif;
-	background-color:#000000;
-	color:#c0c0c0;
-	}
-	
 h1 {
-	font-size:32px;
-	color:#006600;
-	background-color:#222222;
-	}
-	
+	display:block;
+  text-align:center;
+  font-weight:700;
+}
+
+.portrait {
+	margin-top:50px;
+  margin-left:500px;
+  float:center;
+}
+
+#headdiv {
+  border-radius:5px;
+  width:1000px;
+  height:13px;
+	margin: auto;
+  background-color:#2e34e6;
+}
+
+.link {
+	float:left;
+  border-radius:5px;
+  background:#ff4500;
+  margin:50px 20px;
+  width:150px;
+  height:50px;
+  line-height:20px;
+  text-align:center;
+  color:#000000;
+  text-decoration:none;
+  font-family:Arial Rounded MT Bold;
+  clear:left
+}
+
 h2 {
-	font-size:28px;
-	color:#336699;
-	background-color:#222222;
-	}
+  font-family:Trebuchet MS;
+  font-size:48px;
+  font-weight:bold;
+}
+
 h3 {
-	font-size:24px;
-	color:#22ffff;
-	background-color:#222222;
-	}
-h4, h5, h6 {
-	font-size:18px;
-	color:#ff88ff;
-	background-color:#222222;
+  font-family:Trebuchet MS;
+  font-size:32px;
+  font-weight:bold;
+}
+
+.info {
+  font-family:Trebuchet MS;
+  font-size:18px; 
+}
+
+.job{
+  font-family:Trebuchet MS;
+  font-size:18px;
+  font-weight:bold;
+}
+
+a.link:hover {
+  background-color:#ffa500;
+}
+
+a#pcontact {
+	text-decoration:none;
+	color:#0000ff
+}
+	
+a#pcontact:hover {
+  text-decoration:underline;
 	}
 
-a {
-	text-decoration:none;
-	color:#ffffff;
-	}
-	
-a:hover {
-	color:#00ff00;
-	}
+#footer{
+  display:block;
+  clear:both;
+  text-align:center;
+}
