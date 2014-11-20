@@ -1,36 +1,100 @@
-body {
-	font-family: tahoma, Arial, sans-serif;
-	background-color:#000000;
-	color:#c0c0c0;
-	}
-	
 h1 {
-	font-size:32px;
-	color:#006600;
-	background-color:#222222;
-	}
+	display:block;
+  text-align:center;
+  font-weight:700;
+}
+
+.portrait {
+	margin-top:50px;
+  margin-left:500px;
+  float:center;
+}
+
+#headdiv {
+  border-radius:5px;
+  width:1000px;
+  height:13px;
+	margin: auto;
+  background-color:#2e34e6;
+}
+
+.link {
+	float:left;
+  border-radius:5px;
+  background:#ff4500;
+  margin:50px 20px;
+  width:150px;
+  height:50px;
+  line-height:20px;
+  text-align:center;
+  color:#000000;
+  text-decoration:none;
+  font-family:Arial Rounded MT Bold;
+  clear:left
+}
+
+#space {
+  border-radius:5px;
+  margin:50px 20px;
+  width:150px;
+  height:550px;
+  float:left;
+  clear:left;
+}
+
+#address {
+  list-style-type:none;
+  font-size:24px;
+  font-family:Trebuchet MS;
+}
+
+#phone {
+  list-style-type:none;
+  margin-top:20px;
+  font-family:Trebuchet MS;
+  font-size:24px;
+}
+
+#facebook {
+  list-style-type:none;
+  font-size:24px;
+  font-family:Trebuchet MS;
+}
+
+#Twitter {
+  list-style-type:none;
+  font-size:24px;
+  font-family:Trebuchet MS;
+}
+
+a.conlink {
+  color:blue;
+  text-decoration:none;
+}
+
+a.conlink:hover {
+  text-decoration:underline
+}
+
+a.conlink:visited {
+  color:#8A2BE2
+}
+
+a.link:hover {
+  background-color:#ffa500;
+}
+
+a#pcontact {
+	text-decoration:none;
+	color:#0000ff
+}
 	
-h2 {
-	font-size:28px;
-	color:#336699;
-	background-color:#222222;
-	}
-h3 {
-	font-size:24px;
-	color:#22ffff;
-	background-color:#222222;
-	}
-h4, h5, h6 {
-	font-size:18px;
-	color:#ff88ff;
-	background-color:#222222;
+a#pcontact:hover {
+  text-decoration:underline;
 	}
 
-a {
-	text-decoration:none;
-	color:#ffffff;
-	}
-	
-a:hover {
-	color:#00ff00;
-	}
+#footer{
+  display:block;
+  clear:both;
+  text-align:center;
+}
