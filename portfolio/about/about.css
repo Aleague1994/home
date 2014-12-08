@@ -4,6 +4,14 @@ h1 {
   font-weight:700;
 }
 
+header{
+background-color:#ffffc1;
+}
+
+body{
+background-color:#ffffc1;
+}
+
 .portrait {
 	margin-top:50px;
   margin-left:500px;

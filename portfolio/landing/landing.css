@@ -1,6 +1,11 @@
 header {
 		display:block;
 		text-align: center;
+		background-color:#ffffc1;
+}
+
+body {
+	background-color:#ffffc1;
 }
 
 .headimg {
