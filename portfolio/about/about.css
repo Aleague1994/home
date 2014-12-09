@@ -6,6 +6,7 @@ h1 {
 
 header{
 background-color:#ffffc1;
+font-family:Verdana;
 }
 
 body{
@@ -14,7 +15,7 @@ background-color:#ffffc1;
 
 .portrait {
 	margin-top:50px;
-  margin-left:500px;
+  margin-left:350px;
   float:center;
 }
 
@@ -42,11 +43,13 @@ background-color:#ffffc1;
 }
 
 .content {
-	margin-left:500px;
+	margin-left:350px;
+	margin-right:350px;
   float:center;
 	text-align: left;
 	clear:right;
   font-family:Trebuhet MS;
+  font-size:24px;
 }
 
 a.link:hover {
